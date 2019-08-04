@@ -1,10 +1,123 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    ab
-  </body>
+<html lang="pt-br">
+<head>
+  <title>Ceep</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"           content="width=device-width, initial-scale=1">
+  <meta name="author"             content="Victor Shermon">
+  <meta name="theme-color"        content="#cac123">
+  <meta name="description"        content="Web App - how JavaScript is HTML5">
+  <meta property="og:title"       content="Ceep">
+  <meta property="og:description" content="Web App Ceep - how Javascript is HTML5">
+  <meta property="og:type"        content="website">
+  <meta property="og:site_name"   content="Ceep">
+  <!-- start css -->
+  <link rel="stylesheet" type="text/css"  href="App/css/normalize.css">
+  <link rel="stylesheet" type="text/css" href="App/css/header.css">
+  <link rel="stylesheet" type="text/css" href="App/css/card.css">
+  <!-- end css -->
+  <!-- start JavaScript -->
+  <script async type="text/javascript" src="App/js/card.js"></script>
+  <!-- end JavaScript -->
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__content">
+      <h1 class="header__title">Ceep</h1>
+
+      <div class="header__menu">
+        <nav class="header__nav">
+          <input type="search" placeholder="Busca" class="header__input">
+          <button class="header__button">Linhas</button>
+          <button class="header__button">?</button>
+          <div class="header__loading">
+            <img src="App/image/refresh-page-arrow-button.png" class="header__loading__loading">
+          </div>
+        </nav>
+      </div>
+
+    </div>
+
+  </header>
+
+  <section class="section">
+    <ol class="section__ul">
+
+      <li class="section__card card__colorFirst" data-color="first">
+        <nav class="section__cardColors">
+          <ul class="section__cardColors--flex">
+            <li class="card--del"></li>
+            <li class="card--edit"></li>
+            <li class="card__colors  card--colors__colorFirst card--border" data-color="first">Azul</li>
+            <li class="card__colors  card--colors__colorSecond" data-color="second">Vermelho</li>
+            <li class="card__colors  card--colors__colorThird" data-color="third">Verde</li>
+            <li class="card__colors  card--colors__colorFouth" data-color="fourth">Amarelo</li>
+          </ul>
+        </nav>
+        <p class="card__content" contenteditable="false">
+          Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat,
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+      </li>
+
+      <li class="section__card card__colorSecond" data-color="second">
+        <nav class="section__cardColors">
+          <ul class="section__cardColors--flex">
+            <li class="card--del"></li>
+            <li class="card--edit"></li>
+            <li class="card__colors  card--colors__colorFirst" data-color="first">Azul</li>
+            <li class="card__colors  card--colors__colorSecond  card--border" data-color="second">Vermelho</li>
+            <li class="card__colors  card--colors__colorThird" data-color="third">Verde</li>
+            <li class="card__colors  card--colors__colorFouth" data-color="fourth">Amarelo</li>
+          </ul>
+        </nav>
+        <p class="card__content" contenteditable="false">
+          Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat,
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+      </li>
+
+      <li class="section__card card__colorThird" data-color="third">
+        <nav class="section__cardColors">
+          <ul class="section__cardColors--flex">
+            <li class="card--del"></li>
+            <li class="card--edit"></li>
+            <li class="card__colors  card--colors__colorFirst " data-color="first">Azul</li>
+            <li class="card__colors  card--colors__colorSecond" data-color="second">Vermelho</li>
+            <li class="card__colors  card--colors__colorThird card--border" data-color="third">Verde</li>
+            <li class="card__colors  card--colors__colorFouth" data-color="fourth">Amarelo</li>
+          </ul>
+        </nav>
+        <p class="card__content" contenteditable="false">
+          Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat,
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+      </li>
+
+      <li class="section__card card__colorFouth" data-color="fourth">
+        <nav class="section__cardColors">
+          <ul class="section__cardColors--flex">
+            <li class="card--del"></li>
+            <li class="card--edit"></li>
+            <li class="card__colors  card--colors__colorFirst " data-color="first">Azul</li>
+            <li class="card__colors  card--colors__colorSecond" data-color="second">Vermelho</li>
+            <li class="card__colors  card--colors__colorThird" data-color="third">Verde</li>
+            <li class="card__colors  card--colors__colorFouth card--border" data-color="fourth">Amarelo</li>
+          </ul>
+        </nav>
+        <p class="card__content" contenteditable="false">
+          Nulla porttitor accumsan tincidunt. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur arcu erat,
+          accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+        </p>
+      </li>
+
+    </ol>
+  </section>
+
+</body>
+
 </html>
